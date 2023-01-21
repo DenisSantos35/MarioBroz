@@ -10,15 +10,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,100;1,300;1,500&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="../src/css/estilo.css">
+    
+
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="stylesheet" href="./css/responsivo.css">
 
     <title>Super Mario Broz o filme</title>
 
     
 </head>
 <body>
-    <div class="fundo-video"> <!--video vai no fundo da pagina-->
-        <video class="video" autoplay loop muted> <!--configura para video tocar-->
-            <source src="../src/video/video-mario.mp4" type="video/mp4"><!--Fonte do video-->
+    <div class="fundo-video"> 
+        <video class="video" autoplay loop muted> 
+            <source src="../src/video/video-mario.mp4" type="video/mp4">
         </video>
     </div>
 
@@ -29,11 +37,12 @@
         </a> <!--logo-->
         <nav>
             <ul class="menu">
-                <li>Home</li>
-                <li>Detalhes</li>
+                <li><a href="#" >Home</a></li>
+                <li><a href="#">Detalhes</a></li>
             </ul>
         </nav> <!--menu-->
-    </header>
+    </header>    
+
     <main class="container">
         <div class="informacoes">
             <img class="imagem-titulo" src="../src/imagens/titulo.png" alt="imagem do titulo do filme">
@@ -43,6 +52,12 @@
             <button class="botao-trailer">Veja o trailer</button>
         </div> <!--secao escrita-->
         <img class="mario" src="../src/imagens/super-mario-chars.png" alt=""> <!--imagem mario-->
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscopy; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
     </main>
     
     
