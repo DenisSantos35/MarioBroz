@@ -13,7 +13,7 @@ fechar.addEventListener('click', function(){
     }
 });*/
 
-
+/*
 class Iteracao{
     constructor(){
         this.botao = document.querySelector('.botao-trailer');
@@ -47,9 +47,9 @@ class Iteracao{
 }
 
 const iteracaoMario = new Iteracao();
+*/
 
 
-/*
 
 const botaoTrailer = document.querySelector('.botao-trailer');
 const modal = document.querySelector('.modal');
@@ -74,4 +74,3 @@ fecharModal.addEventListener('click', () => {
     video.removeAttribute('src')
     
 })
-*/
